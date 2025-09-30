@@ -6,7 +6,8 @@ A Chrome extension that provides direct access to Gemini from the address bar.
 
 Type `g` in the address bar to search with Gemini:
 
-- `g What's the weather today?` → Search and auto-submit to Gemini
+- `g What's the weather today?` -> Search and auto-submit to Gemini
+- **Auto-submit**: Query is automatically inserted into Gemini's input field and submitted
 
 ## Installation
 
@@ -23,11 +24,6 @@ Type `g` in the address bar to search with Gemini:
    - Example: `g What's the weather today?`
    - Example: `g Tell me about TypeScript`
    - Example: `g Python best practices`
-
-## Features
-
-- **Auto-submit**: Query is automatically inserted into Gemini's input field and submitted
-- **Simple**: Access with just the `g` keyword
 
 ## Notes
 
