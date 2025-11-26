@@ -1,24 +1,26 @@
-# Gemini/Claude Quick Search Chrome Extensions
+# Gemini/Claude Quick Access Chrome Extensions
 
 Chrome extensions that provide direct access to Gemini and Claude from the address bar.
+
+This repository has two extensions for Gemini and Claude.
 
 ## Overview
 
 This repository contains two separate Chrome extensions:
 
-- **Gemini Quick Search** (`gemini/` directory): Search with Google Gemini using `g` keyword
-- **Claude Quick Search** (`claude/` directory): Search with Anthropic Claude using `c` keyword
+- **Gemini Quick Access** (`gemini/` directory): Access Google Gemini using `g` keyword
+- **Claude Quick Access** (`claude/` directory): Access Anthropic Claude using `c` keyword
 
 ## Features
 
 ### Gemini Extension
-Type `g` in the address bar to search with Gemini:
-- `g What's the weather today?` -> Search and auto-submit to Gemini
+Type `g` in the address bar to access Gemini:
+- `g What's the weather today?` -> Access and auto-submit to Gemini
 - **Auto-submit**: Query is automatically inserted into Gemini's input field and submitted
 
 ### Claude Extension
-Type `c` in the address bar to search with Claude:
-- `c What's the weather today?` -> Search and auto-submit to Claude
+Type `c` in the address bar to access Claude:
+- `c What's the weather today?` -> Access and auto-submit to Claude
 - **Auto-submit**: Query is automatically inserted into Claude's input field and submitted
 
 ## Installation
