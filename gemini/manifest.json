@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Gemini Quick Search",
+  "name": "Gemini Quick Access",
   "version": "1.0",
   "description": "Quick access to Gemini from address bar with 'g'",
   "permissions": [
