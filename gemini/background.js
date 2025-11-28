@@ -42,7 +42,7 @@ chrome.omnibox.onInputChanged.addListener((text, suggest) => {
   if (text.length > 0) {
     suggestions.push({
       content: text,
-      description: `Search on Gemini: <match>${text}</match>`,
+      description: `Ask Gemini: <match>${text}</match>`,
     });
   }
 
