@@ -1,15 +1,16 @@
-# Gemini/Claude Quick Access Chrome Extensions
+# LLM Quick Access Chrome Extensions
 
-Chrome extensions that provide direct access to Gemini and Claude from the address bar.
+Chrome extensions that provide direct access to Gemini, Claude, and OpenAI from the address bar.
 
-This repository has two extensions for Gemini and Claude.
+This repository has three extensions for Gemini, Claude, and OpenAI.
 
 ## Overview
 
-This repository contains two separate Chrome extensions:
+This repository contains three separate Chrome extensions:
 
 - **Gemini Quick Access** (`gemini/` directory): Access Google Gemini using `g` keyword
 - **Claude Quick Access** (`claude/` directory): Access Anthropic Claude using `c` keyword
+- **OpenAI Quick Access** (`openai/` directory): Access OpenAI (GPT) using `o` keyword
 
 ## Features
 
@@ -22,6 +23,11 @@ Type `g` in the address bar to access Gemini:
 Type `c` in the address bar to access Claude:
 - `c What's the weather today?` -> Access and auto-submit to Claude
 - **Auto-submit**: Query is automatically inserted into Claude's input field and submitted
+
+### OpenAI Extension
+Type `o` in the address bar to access OpenAI (GPT):
+- `o What's the weather today?` -> Access and auto-submit to OpenAI
+- **Auto-submit**: Query is automatically inserted into OpenAI's input field and submitted
 
 ## Installation
 
@@ -36,6 +42,12 @@ Type `c` in the address bar to access Claude:
 2. Enable "Developer mode" in the top right
 3. Click "Load unpacked extension"
 4. Select the `claude` folder
+
+### For OpenAI Extension:
+1. Open Chrome and go to `chrome://extensions/`
+2. Enable "Developer mode" in the top right
+3. Click "Load unpacked extension"
+4. Select the `openai` folder
 
 ## Usage
 
@@ -55,37 +67,46 @@ Type `c` in the address bar to access Claude:
    - Example: `c Tell me about TypeScript`
    - Example: `c Python best practices`
 
+### OpenAI Extension
+1. Type `o` in the address bar
+2. Press the space key
+3. Enter your question and press Enter
+   - Example: `o What's the weather today?`
+   - Example: `o Tell me about TypeScript`
+   - Example: `o Python best practices`
+
 ## Notes
 
-- These are service-specific extensions for Gemini and Claude
-- May require updates if Gemini or Claude's page structure changes
+- These are service-specific extensions for Gemini, Claude, and OpenAI
+- May require updates if Gemini, Claude, or OpenAI's page structure changes
 
 ## Privacy Policy
 
-This Privacy Policy outlines how user information is handled by the Chrome extensions "Gemini Quick Access" and "Claude Quick Access" (hereinafter referred to as "these extensions"). These extensions have been developed with the highest priority on protecting user privacy.
+This Privacy Policy outlines how user information is handled by the Chrome extensions "Gemini Quick Access", "Claude Quick Access", and "OpenAI Quick Access" (hereinafter referred to as "these extensions"). These extensions have been developed with the highest priority on protecting user privacy.
 
 ### Information Collected and Its Purpose
 
 These extensions collect the following information:
 
-* **Search queries entered by the user in the address bar**: This includes queries entered after the extensions' keywords (`g` for Gemini, `c` for Claude).
-* **Purpose of Use**: The collected search queries are used **solely for the purpose of being sent directly to the Gemini or Claude service based on the user's command**. This data is not collected, stored, or shared by the developer of these extensions.
+* **Search queries entered by the user in the address bar**: This includes queries entered after the extensions' keywords (`g` for Gemini, `c` for Claude, `o` for OpenAI).
+* **Purpose of Use**: The collected search queries are used **solely for the purpose of being sent directly to the Gemini, Claude, or OpenAI service based on the user's command**. This data is not collected, stored, or shared by the developer of these extensions.
 
 ### Third-Party Data Sharing and Storage
 
 The developer of these extensions does not provide or share user data, including personal information, with **any third parties**.
 
-Furthermore, these extensions do not send or store user data on any servers or locally. All processing is completed within the user's browser, and data is sent directly to the respective service (Gemini or Claude).
+Furthermore, these extensions do not send or store user data on any servers or locally. All processing is completed within the user's browser, and data is sent directly to the respective service (Gemini, Claude, or OpenAI).
 
 ### On the Use of External Services
 
 These extensions use:
 - **Gemini service provided by Google**: The handling of data on the Gemini service is governed by Google's Privacy Policy (https://policies.google.com/privacy)
 - **Claude service provided by Anthropic**: The handling of data on the Claude service is governed by Anthropic's Privacy Policy (https://www.anthropic.com/privacy)
+- **OpenAI service provided by OpenAI**: The handling of data on the OpenAI service is governed by OpenAI's Privacy Policy (https://openai.com/policies/privacy-policy/)
 
 ### Disclaimer
 
-These extensions rely on the Gemini and Claude services provided by Google and Anthropic respectively. In the event of changes to these services' specifications or related issues, the extensions may not function properly, and the developer assumes no responsibility for such occurrences.
+These extensions rely on the Gemini, Claude, and OpenAI services provided by Google, Anthropic, and OpenAI respectively. In the event of changes to these services' specifications or related issues, the extensions may not function properly, and the developer assumes no responsibility for such occurrences.
 
 ### Contact
 
